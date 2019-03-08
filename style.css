@@ -8,12 +8,21 @@ body{
     background-color: #f4f4f4
 }
 
-
 .container{
     width: 80%;
     margin: auto;
     overflow: hidden;
     text-align: center;
+}
+
+.button_1{
+    height: 38px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    font-weight: bold;
+    background-color: orangered ;
+    border: none
 }
 
 /* Header */
@@ -58,4 +67,63 @@ header nav{
 #branding .highlight, header .current {
     color: red;
     font-weight: bold
+}
+
+/*  Showcase  */
+
+#showcase {
+    min-height: 400px;
+    background: url('./img/showcase.jpg') no-repeat 0 -400px;
+}
+#showcase h1{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 55px;
+    color: white;
+}
+#showcase p{
+    color: white;
+    size: 20px;
+}
+
+/*    NewsLetter */
+
+#newsletter {
+    padding: 14px;
+    color: #ffffff;
+    background-color: #35424a
+
+}
+#newsletter h1{
+    float: left;
+    text-transform: capitalize;
+}
+#newsletter form{
+    float: right;
+    margin-top: 15px
+}
+
+#newsletter input{
+    height: 25px;
+    width: 250px;
+    padding: 4px
+}
+
+
+/*  Boxes */
+
+#boxes{
+    margin-top: 20px;
+}
+#boxes .box{
+    width: 30%;
+    float: left;
+    padding: 12px
+}
+
+footer {
+    margin-top: 10px;
+    padding: 10px;
+    color: white;
+    background-color: orangered
 }
